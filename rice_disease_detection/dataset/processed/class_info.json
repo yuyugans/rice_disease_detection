@@ -1,0 +1,13 @@
+{
+    "classes": [
+        "blast",
+        "blight",
+        "tungro"
+    ],
+    "image_size": [
+        224,
+        224
+    ],
+    "normalization": "pixel / 255.0",
+    "random_state": 42
+}

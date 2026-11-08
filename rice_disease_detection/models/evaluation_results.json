@@ -1,0 +1,60 @@
+{
+    "accuracy": 0.84,
+    "accuracy_percentage": 84.0,
+    "total_test_images": 75,
+    "class_names": [
+        "blast",
+        "blight",
+        "tungro"
+    ],
+    "confusion_matrix": [
+        [
+            24,
+            3,
+            3
+        ],
+        [
+            1,
+            28,
+            4
+        ],
+        [
+            0,
+            1,
+            11
+        ]
+    ],
+    "classification_report": {
+        "blast": {
+            "precision": 0.96,
+            "recall": 0.8,
+            "f1-score": 0.8727272727272727,
+            "support": 30.0
+        },
+        "blight": {
+            "precision": 0.875,
+            "recall": 0.8484848484848485,
+            "f1-score": 0.8615384615384616,
+            "support": 33.0
+        },
+        "tungro": {
+            "precision": 0.6111111111111112,
+            "recall": 0.9166666666666666,
+            "f1-score": 0.7333333333333333,
+            "support": 12.0
+        },
+        "accuracy": 0.84,
+        "macro avg": {
+            "precision": 0.8153703703703704,
+            "recall": 0.855050505050505,
+            "f1-score": 0.8225330225330225,
+            "support": 75.0
+        },
+        "weighted avg": {
+            "precision": 0.8667777777777776,
+            "recall": 0.84,
+            "f1-score": 0.8455011655011655,
+            "support": 75.0
+        }
+    }
+}
